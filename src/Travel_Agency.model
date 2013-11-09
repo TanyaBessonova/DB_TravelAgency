@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="CONTRY" Title="CONTRY" entityHeight="200" entityIconified="false" entityId="138384392857025" entityLocationX="812" entityLocationY="286" entityWidth="150" tableName="CONTRY" tableSchemaName=""/>
+  <entity Name="PLACE" Title="PLACE" entityHeight="200" entityIconified="false" entityId="138375714599396" entityLocationX="44" entityLocationY="274" entityWidth="150" tableName="PLACE" tableSchemaName=""/>
+  <entity Name="TOURS" Title="TOURS" entityHeight="200" entityIconified="false" entityId="138375714603419" entityLocationX="274" entityLocationY="9" entityWidth="150" tableName="TOURS" tableSchemaName=""/>
+  <entity Name="WAYS_TO_MOVE" Title="WAYS_TO_MOVE" entityHeight="200" entityIconified="false" entityId="138384392857958" entityLocationX="830" entityLocationY="16" entityWidth="150" tableName="WAYS_TO_MOVE" tableSchemaName=""/>
+  <entity Name="SALE_OF_TOURS" Title="SALE_OF_TOURS" entityHeight="200" entityIconified="false" entityId="138375715715975" entityLocationX="350" entityLocationY="263" entityWidth="150" tableName="SALE_OF_TOURS" tableSchemaName=""/>
+  <entity Name="CITY" Title="CITY" entityHeight="200" entityIconified="false" entityId="138384392854936" entityLocationX="633" entityLocationY="270" entityWidth="150" tableName="CITY" tableSchemaName=""/>
+  <entity Name="СUSTOMERS" Title="СUSTOMERS" entityHeight="200" entityIconified="false" entityId="138375714605202" entityLocationX="590" entityLocationY="35" entityWidth="150" tableName="СUSTOMERS" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="СUSTOMERS_ID" leftEntityId="138375715715975" rightEntityFieldName="СUSTOMERS_ID" rightEntityId="138375714605202"/>
+  <referenceRelation leftEntityFieldName="CITY_ID" leftEntityId="138375714599396" rightEntityFieldName="CITY_ID" rightEntityId="138384392854936"/>
+  <referenceRelation leftEntityFieldName="HOTEL_ID" leftEntityId="138375714603419" rightEntityFieldName="HOTEL_ID" rightEntityId="138375714599396"/>
+  <referenceRelation leftEntityFieldName="COUNTRY_ID" leftEntityId="138375714599396" rightEntityFieldName="CONTRY_ID" rightEntityId="138384392857025"/>
+  <referenceRelation leftEntityFieldName="TOURS_ID" leftEntityId="138375715715975" rightEntityFieldName="TOURS_ID" rightEntityId="138375714603419"/>
+  <referenceRelation leftEntityFieldName="CONTRY_ID" leftEntityId="138384392854936" rightEntityFieldName="CONTRY_ID" rightEntityId="138384392857025"/>
+  <referenceRelation leftEntityFieldName="WAYS_TO_MOVE_ID" leftEntityId="138375715715975" rightEntityFieldName="WAYS_TO_MOVE_ID" rightEntityId="138384392857958"/>
+</datamodel>

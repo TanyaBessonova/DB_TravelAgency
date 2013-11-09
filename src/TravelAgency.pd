@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
+  <fieldsEntity entityHeight="149" entityIconified="false" entityId="138375343404369" entityLocationX="19" entityLocationY="2" entityWidth="272" tableName="Сustomers"/>
+  <fieldsEntity entityHeight="88" entityIconified="false" entityId="138380186034818" entityLocationX="711" entityLocationY="265" entityWidth="243" tableName="City"/>
+  <fieldsEntity entityHeight="95" entityIconified="false" entityId="138380181609105" entityLocationX="742" entityLocationY="26" entityWidth="211" tableName="Contry"/>
+  <fieldsEntity entityHeight="125" entityIconified="false" entityId="138375379946767" entityLocationX="377" entityLocationY="276" entityWidth="278" tableName="Tours"/>
+  <fieldsEntity entityHeight="81" entityIconified="false" entityId="138380192973712" entityLocationX="60" entityLocationY="429" entityWidth="254" tableName="Ways_to_move"/>
+  <fieldsEntity entityHeight="126" entityIconified="false" entityId="138375345958861" entityLocationX="355" entityLocationY="23" entityWidth="308" tableName="Place"/>
+  <fieldsEntity entityHeight="114" entityIconified="false" entityId="138375377611134" entityLocationX="36" entityLocationY="239" entityWidth="266" tableName="Sale_of_tours"/>
+</datamodel>
