@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="489px" prefWidth="867px">
+  <widget name="modelFormattedField2" parent="Form" prefHeight="24px" prefWidth="192px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138479020231002" fieldName="MIDDLENAME"/>
+    <constraints bottom="93px" height="24px" left="360px" type="MarginConstraintsDesignInfo" width="192px"/>
+  </widget>
+  <widget name="modelFormattedField1" parent="Form" prefHeight="24px" prefWidth="144px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138479020231002" fieldName="NAME"/>
+    <constraints bottom="93px" height="24px" left="216px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget foregroundColor="#6600cc" name="label" parent="Form" prefHeight="14px" prefWidth="420px" text="ТУРИСТИЧЕСКОЕ АГЕНТСТВО &quot; КОМПАС &quot;" type="LabelDesignInfo">
+    <easFont name="Garamond" size="18" style="3"/>
+    <constraints height="14px" left="204px" top="12px" type="MarginConstraintsDesignInfo" width="420px"/>
+  </widget>
+  <widget dateFormat="dd.MM.yyyy" name="modelDate" parent="Form" prefHeight="24px" prefWidth="136px" type="DbDateDesignInfo">
+    <constraints height="24px" right="-1px" top="0px" type="MarginConstraintsDesignInfo" width="136px"/>
+  </widget>
+  <widget name="Save_6" parent="Form" prefHeight="312px" prefWidth="648px" type="TabsDesignInfo">
+    <constraints height="312px" left="108px" right="111px" top="36px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="panel" parent="Save_6" prefHeight="284px" prefWidth="643px" type="PanelDesignInfo">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Клиенты" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="Add1ActionPerformed" name="Add1" parent="panel" prefHeight="23px" prefWidth="108px" text="ДОБАВИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_1ActionPerformed" name="Delete_1" parent="panel" prefHeight="23px" prefWidth="108px" text="УДАЛИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Save_1ActionPerformed" name="Save_1" parent="panel" prefHeight="23px" prefWidth="108px" text="СОХРАНИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="300px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelGrid1" parent="panel" prefHeight="228px" prefWidth="636px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138479020231002" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="sURNAME" title="Фамилия">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138479020231002" fieldName="SURNAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="nAME" title="Имя">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138479020231002" fieldName="NAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="mIDDLENAME" title="Отчество">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138479020231002" fieldName="MIDDLENAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="nUMBER _PASSPORT" title="Номер паспорта">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138479020231002" fieldName="NUMBER _PASSPORT"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="nUMBER_PHONE" title="Номер телефона">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138479020231002" fieldName="NUMBER_PHONE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <treeDesignInfo/>
+    <constraints bottom="56px" height="228px" left="0px" right="7px" top="0px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="panel1" parent="Save_6" prefHeight="284px" prefWidth="643px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Отели" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="Save_2ActionPerformed" name="Save_2" parent="panel1" prefHeight="23px" prefWidth="108px" text="СОХРАНИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="300px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_2ActionPerformed" name="Delete_2" parent="panel1" prefHeight="23px" prefWidth="108px" text="УДАЛИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Add2ActionPerformed" name="Add2" parent="panel1" prefHeight="23px" prefWidth="108px" text="ДОБАВИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelGrid7" parent="panel1" prefHeight="228px" prefWidth="643px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138453026636127" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="hOTEL_NAME" title="Название отеля">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138453026636127" fieldName="HOTEL_NAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="0px" right="0px" top="0px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="panel2" parent="Save_6" prefHeight="284px" prefWidth="643px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Путёвки" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="Add3ActionPerformed" name="Add3" parent="panel2" prefHeight="23px" prefWidth="108px" text="ДОБАВИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_3ActionPerformed" name="Delete_3" parent="panel2" prefHeight="23px" prefWidth="108px" text="УДАЛИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Save_3ActionPerformed" name="Save_3" parent="panel2" prefHeight="23px" prefWidth="108px" text="СОХРАНИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="300px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelGrid8" parent="panel2" prefHeight="228px" prefWidth="643px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138453025236854" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="dATE_OF_DEPARTURE" title="Дата отправление">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138453025236854" fieldName="DATE_OF_DEPARTURE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="cOST" title="Стоимость путёвки">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138453025236854" fieldName="COST"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="0px" right="0px" top="0px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="panel3" parent="Save_6" prefHeight="284px" prefWidth="643px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Страны" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="Save_4ActionPerformed" name="Save_4" parent="panel3" prefHeight="23px" prefWidth="108px" text="СОХРАНИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="300px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_4ActionPerformed" name="Delete_4" parent="panel3" prefHeight="23px" prefWidth="108px" text="УДАЛИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Add4ActionPerformed" name="Add4" parent="panel3" prefHeight="23px" prefWidth="108px" text="ДОБАВИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelGrid9" parent="panel3" prefHeight="228px" prefWidth="643px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138453027435735" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="cOUNTRY1" title="Страна">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138453027435735" fieldName="COUNTRY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="0px" right="0px" top="0px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="panel4" parent="Save_6" prefHeight="284px" prefWidth="643px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Города" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="Save_5ActionPerformed" name="Save_5" parent="panel4" prefHeight="23px" prefWidth="108px" text="СОХРАНИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="300px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_5ActionPerformed" name="Delete_5" parent="panel4" prefHeight="23px" prefWidth="108px" text="УДАЛИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Add5ActionPerformed" name="Add5" parent="panel4" prefHeight="23px" prefWidth="108px" text="ДОБАВИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelGrid10" parent="panel4" prefHeight="228px" prefWidth="643px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138453028039341" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="cITY1" title="Город">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138453028039341" fieldName="CITY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="0px" right="0px" top="0px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="panel5" parent="Save_6" prefHeight="284px" prefWidth="643px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Вид перемещения" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="button13ActionPerformed" name="button13" parent="panel5" prefHeight="23px" prefWidth="108px" text="СОХРАНИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="300px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_6ActionPerformed" name="Delete_6" parent="panel5" prefHeight="23px" prefWidth="108px" text="УДАЛИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Add6ActionPerformed" name="Add6" parent="panel5" prefHeight="23px" prefWidth="108px" text="ДОБАВИТЬ" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelGrid" parent="panel5" prefHeight="228px" prefWidth="648px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138453024693607" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="wAYS_TO_MOVE" title="Транспорт">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138453024693607" fieldName="WAYS_TO_MOVE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <treeDesignInfo/>
+    <constraints height="228px" left="0px" right="-5px" top="0px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelFormattedField" parent="Form" prefHeight="24px" prefWidth="144px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138479020231002" fieldName="SURNAME"/>
+    <constraints bottom="93px" height="24px" left="72px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
