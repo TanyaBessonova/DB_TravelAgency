@@ -1,8 +1,7 @@
 /**
  *
  * @author home
- * @name Tours
- * 
+ * @name Sum
  */ 
 Select * 
-From TOURS t1
+From QUANTITY t1

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="country_Date" Title="Country-Date" entityHeight="200" entityIconified="false" entityId="138597824467692" entityLocationX="237" entityLocationY="14" entityWidth="248" queryId="Country_Date" tableName="" tableSchemaName=""/>
+  <entity Name="contry" Title="Contry" entityHeight="109" entityIconified="false" entityId="138597863130610" entityLocationX="235" entityLocationY="231" entityWidth="268" queryId="Contry" tableName="" tableSchemaName=""/>
+</datamodel>

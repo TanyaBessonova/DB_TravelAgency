@@ -1,8 +1,8 @@
 /**
  *
  * @author home
- * @name Tours
+ * @name Zakaz
  * 
  */ 
 Select * 
-From TOURS t1
+From ZAKAZ t1
