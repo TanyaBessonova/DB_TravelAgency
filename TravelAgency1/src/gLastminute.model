@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="from" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+    <parameter description="" name="to" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="11" entityLocationY="11" entityWidth="150"/>
+  <entity Name="lastminute" Title="Lastminute" entityHeight="200" entityIconified="false" entityId="138598301727597" entityLocationX="252" entityLocationY="11" entityWidth="228" queryId="Lastminute" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="to" rightEntityId="138598301727597" rightEntityParameterName="Param1"/>
+  <relation leftEntityId="-1" leftEntityParameterName="from" rightEntityId="138598301727597" rightEntityParameterName="Date_of_departure"/>
+</datamodel>

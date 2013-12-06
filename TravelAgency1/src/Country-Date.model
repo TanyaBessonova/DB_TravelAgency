@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Country" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+    <parameter description="" name="Date_Of_Departure" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="187"/>
+  <entity Title="Tours" entityHeight="200" entityIconified="false" entityId="138625789986207" entityLocationX="266" entityLocationY="7" entityWidth="240" queryId="Tours" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Date_Of_Departure" rightEntityFieldName="DATE_OF_DEPARTURE" rightEntityId="138625789986207"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Country" rightEntityFieldName="COUNTRY" rightEntityId="138625789986207"/>
+</datamodel>

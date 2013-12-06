@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="325px" prefWidth="467px" windowOpened="formWindowOpened">
+  <widget name="modelGrid" parent="Form" prefHeight="228px" prefWidth="408px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138630399757339" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <column name="cost" title="Стоимость">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138630399757339" fieldName="cost"/>
+      <columnsDisplayField/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="country" title="Страна">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138630399757339" fieldName="country"/>
+      <columnsDisplayField/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="city" title="Город">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138630399757339" fieldName="city"/>
+      <columnsDisplayField/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="hotel_name" title="Название отеля">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138630399757339" fieldName="hotel_name"/>
+      <columnsDisplayField/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <constraints bottom="13px" left="24px" right="35px" top="84px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="89px" text="Поиск" type="ButtonDesignInfo">
+    <constraints height="23px" left="60px" top="24px" type="MarginConstraintsDesignInfo" width="89px"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="24px" prefWidth="144px" type="TextFieldDesignInfo">
+    <constraints height="24px" left="252px" top="24px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

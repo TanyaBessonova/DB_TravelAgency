@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="125px" prefWidth="445px">
+  <widget name="modelGrid" parent="Form" prefHeight="48px" prefWidth="420px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138598956409077" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <column name="number_tour" title="Номер путёвки">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138598956409077" fieldName="number_tour"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="summa" title="Количество заказов">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138598956409077" fieldName="summa"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <constraints bottom="17px" left="12px" right="13px" top="60px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="label" parent="Form" prefHeight="24px" prefWidth="312px" text="Путёвка,пользующаяся наибольшим спросом " type="LabelDesignInfo">
+    <constraints bottom="89px" left="84px" right="49px" top="12px" type="MarginConstraintsDesignInfo"/>
+    <easFont name="Times New Roman" size="14" style="3"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

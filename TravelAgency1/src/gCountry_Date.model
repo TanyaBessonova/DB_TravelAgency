@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Country" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+    <parameter description="" name="Date" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="contry" Title="Contry" entityHeight="109" entityIconified="false" entityId="138597863130610" entityLocationX="533" entityLocationY="61" entityWidth="268" queryId="Contry" tableName="" tableSchemaName=""/>
+  <entity Name="country_Date" Title="Country-Date" entityHeight="200" entityIconified="false" entityId="138625831578440" entityLocationX="274" entityLocationY="15" entityWidth="150" queryId="Country_Date" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Country" rightEntityId="138625831578440" rightEntityParameterName="Country"/>
+  <relation leftEntityFieldName="COUNTRY" leftEntityId="138625831578440" rightEntityFieldName="COUNTRY" rightEntityId="138597863130610"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Date" rightEntityId="138625831578440" rightEntityParameterName="Date_Of_Departure"/>
+</datamodel>

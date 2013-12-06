@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="DATE_OF_DEPARTURE" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="234"/>
+  <entity Name="no_Aircraft" Title="No_Aircraft" entityHeight="200" entityIconified="false" entityId="138598170834032" entityLocationX="375" entityLocationY="51" entityWidth="222" queryId="No_Aircraft" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="DATE_OF_DEPARTURE" rightEntityId="138598170834032" rightEntityParameterName="DATE_OF_DEPARTURE"/>
+</datamodel>

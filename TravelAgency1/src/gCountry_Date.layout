@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="321px" prefWidth="578px" windowOpened="formWindowOpened">
+  <widget dateFormat="dd.MM.yyyy" name="modelDate" parent="Form" prefHeight="24px" prefWidth="144px" type="DbDateDesignInfo">
+    <datamodelElement entityId="-1" fieldName="Date"/>
+    <constraints height="24px" left="192px" top="24px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="132px" text="Поиск" type="ButtonDesignInfo">
+    <constraints height="23px" left="24px" right="422px" top="24px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelCombo" parent="Form" prefHeight="24px" prefWidth="132px" type="DbComboDesignInfo">
+    <valueField entityId="138597863130610" fieldName="COUNTRY"/>
+    <displayField entityId="138597863130610" fieldName="COUNTRY"/>
+    <datamodelElement entityId="138597863130610" fieldName="COUNTRY"/>
+    <constraints height="24px" left="384px" right="62px" top="24px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="216px" prefWidth="552px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138625831578440" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="cOUNTRY" title="Страна">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138625831578440" fieldName="COUNTRY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="dATE_OF_DEPARTURE" title="Дата отправления">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138625831578440" fieldName="DATE_OF_DEPARTURE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <treeDesignInfo/>
+    <constraints bottom="9px" left="12px" right="14px" top="96px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
