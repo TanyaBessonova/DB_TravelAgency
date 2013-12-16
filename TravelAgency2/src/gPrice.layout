@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="325px" prefWidth="467px" windowOpened="formWindowOpened">
+  <widget name="modelGrid" parent="Form" prefHeight="228px" prefWidth="408px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138645005864321" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="cost" title="Стоимость">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138645005864321" field="false" fieldName="Cost"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Dialog" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="country" title="Страна">
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="138645012280106" fieldName="CONTRY_ID"/>
+        <displayField entityId="138645012280106" fieldName="COUNTRY"/>
+      </controlInfo>
+      <datamodelElement entityId="138645005864321" fieldName="COUNTRY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Dialog" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column enabled="false" name="city" title="Город">
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="138645012064728" fieldName="CITY_ID"/>
+        <displayField entityId="138645012064728" fieldName="CITY"/>
+      </controlInfo>
+      <datamodelElement entityId="138645005864321" fieldName="CITY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Dialog" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="hotel_name" title="Название отеля">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138645005864321" fieldName="HOTEL_NAME"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Dialog" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <constraints bottom="13px" left="24px" right="35px" top="84px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="89px" text="Поиск" type="ButtonDesignInfo">
+    <constraints height="23px" left="60px" top="24px" type="MarginConstraintsDesignInfo" width="89px"/>
+  </widget>
+  <widget actionPerformed="textFieldActionPerformed" name="textField" parent="Form" prefHeight="24px" prefWidth="144px" type="TextFieldDesignInfo">
+    <constraints height="24px" left="252px" top="24px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

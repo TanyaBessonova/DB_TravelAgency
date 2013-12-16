@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="321px" prefWidth="578px" windowOpened="formWindowOpened">
+  <widget dateFormat="dd.MM.yyyy" name="modelDate" parent="Form" prefHeight="24px" prefWidth="144px" type="DbDateDesignInfo">
+    <datamodelElement entityId="-1" fieldName="Date"/>
+    <constraints height="24px" left="192px" top="24px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="132px" text="Поиск" type="ButtonDesignInfo">
+    <constraints height="23px" left="24px" top="24px" type="MarginConstraintsDesignInfo" width="132px"/>
+  </widget>
+  <widget name="modelGrid" parent="Form" prefHeight="216px" prefWidth="552px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138659133142302" field="false"/>
+    </rowsColumnsDesignInfo>
+    <column name="cOUNTRY" title="Города">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138659133142302" fieldName="CITY"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="dATE_OF_DEPARTURE" title="Дата отправления">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138659133142302" fieldName="DATE_OF_DEPARTURE"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <constraints bottom="9px" left="12px" right="14px" top="96px" type="MarginConstraintsDesignInfo"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

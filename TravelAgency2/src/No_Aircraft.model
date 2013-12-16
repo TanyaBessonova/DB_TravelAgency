@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="DATE_OF_DEPARTURE" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="76" entityIconified="false" entityLocationX="6" entityLocationY="12" entityWidth="196"/>
+  <entity Title="PLACE" entityHeight="102" entityIconified="false" entityId="138691285293499" entityLocationX="519" entityLocationY="14" entityWidth="210" tableAlias="t" tableName="PLACE" tableSchemaName=""/>
+  <entity Title="SALE_OF_TOURS" entityHeight="114" entityIconified="false" entityId="138691810647150" entityLocationX="541" entityLocationY="137" entityWidth="288" tableAlias="t4" tableName="SALE_OF_TOURS" tableSchemaName=""/>
+  <entity Title="WAYS_TO_MOVE" entityHeight="85" entityIconified="false" entityId="138691812038608" entityLocationX="913" entityLocationY="142" entityWidth="254" tableAlias="t5" tableName="WAYS_TO_MOVE" tableSchemaName=""/>
+  <entity Title="CITY" entityHeight="92" entityIconified="false" entityId="138691798226358" entityLocationX="770" entityLocationY="14" entityWidth="222" tableAlias="t2" tableName="CITY" tableSchemaName=""/>
+  <entity Title="TOURS" entityHeight="139" entityIconified="false" entityId="138591979165279" entityLocationX="219" entityLocationY="48" entityWidth="253" tableAlias="t1" tableName="TOURS" tableSchemaName=""/>
+  <entity Title="CONTRY" entityHeight="80" entityIconified="false" entityId="138691800347948" entityLocationX="1026" entityLocationY="15" entityWidth="240" tableAlias="t3" tableName="CONTRY" tableSchemaName=""/>
+  <relation leftEntityFieldName="WAYS_TO_MOVE_ID" leftEntityId="138691810647150" rightEntityFieldName="WAYS_TO_MOVE_ID" rightEntityId="138691812038608"/>
+  <relation leftEntityFieldName="TOURS_ID" leftEntityId="138691810647150" rightEntityFieldName="TOURS_ID" rightEntityId="138591979165279"/>
+  <relation leftEntityFieldName="DATE_OF_DEPARTURE" leftEntityId="138591979165279" rightEntityId="-1" rightEntityParameterName="DATE_OF_DEPARTURE"/>
+  <relation leftEntityFieldName="CITY_ID" leftEntityId="138691285293499" rightEntityFieldName="CITY_ID" rightEntityId="138691798226358"/>
+  <relation leftEntityFieldName="CONTRY_ID" leftEntityId="138691798226358" rightEntityFieldName="CONTRY_ID" rightEntityId="138691800347948"/>
+  <relation leftEntityFieldName="HOTEL_ID" leftEntityId="138591979165279" rightEntityFieldName="HOTEL_ID" rightEntityId="138691285293499"/>
+</datamodel>

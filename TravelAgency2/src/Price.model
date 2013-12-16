@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Cost" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="145" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="172"/>
+  <entity Title="CITY" entityHeight="106" entityIconified="false" entityId="138659202407264" entityLocationX="791" entityLocationY="9" entityWidth="231" tableAlias="t" tableName="CITY" tableSchemaName=""/>
+  <entity Title="TOURS" entityHeight="142" entityIconified="false" entityId="138590811938872" entityLocationX="217" entityLocationY="9" entityWidth="297" tableAlias="t1" tableName="TOURS" tableSchemaName=""/>
+  <entity Title="CONTRY" entityHeight="96" entityIconified="false" entityId="138659202756646" entityLocationX="1065" entityLocationY="14" entityWidth="213" tableAlias="t2" tableName="CONTRY" tableSchemaName=""/>
+  <entity Title="PLACE" entityHeight="119" entityIconified="false" entityId="138659203641125" entityLocationX="541" entityLocationY="8" entityWidth="210" tableAlias="t3" tableName="PLACE" tableSchemaName=""/>
+  <relation leftEntityFieldName="CITY_ID" leftEntityId="138659203641125" rightEntityFieldName="CITY_ID" rightEntityId="138659202407264"/>
+  <relation leftEntityFieldName="HOTEL_ID" leftEntityId="138590811938872" rightEntityFieldName="HOTEL_ID" rightEntityId="138659203641125"/>
+  <relation leftEntityFieldName="CONTRY_ID" leftEntityId="138659202407264" rightEntityFieldName="CONTRY_ID" rightEntityId="138659202756646"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Cost" rightEntityFieldName="COST" rightEntityId="138590811938872"/>
+</datamodel>

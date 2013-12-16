@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Date_of_departure" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+    <parameter description="" name="Param1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="152" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="176"/>
+  <entity Title="CONTRY" entityHeight="149" entityIconified="false" entityId="138657338454829" entityLocationX="991" entityLocationY="9" entityWidth="169" tableAlias="t3" tableName="CONTRY" tableSchemaName=""/>
+  <entity Title="CITY" entityHeight="153" entityIconified="false" entityId="138657337454887" entityLocationX="754" entityLocationY="6" entityWidth="218" tableAlias="t2" tableName="CITY" tableSchemaName=""/>
+  <entity Title="PLACE" entityHeight="152" entityIconified="false" entityId="138657288898098" entityLocationX="529" entityLocationY="7" entityWidth="181" tableAlias="t" tableName="PLACE" tableSchemaName=""/>
+  <entity Title="TOURS" entityHeight="122" entityIconified="false" entityId="138592124475572" entityLocationX="220" entityLocationY="37" entityWidth="252" tableAlias="t1" tableName="TOURS" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Param1" rightEntityFieldName="DATE_OF_DEPARTURE" rightEntityId="138592124475572"/>
+  <relation leftEntityFieldName="CITY_ID" leftEntityId="138657288898098" rightEntityFieldName="CITY_ID" rightEntityId="138657337454887"/>
+  <relation leftEntityFieldName="HOTEL_ID" leftEntityId="138592124475572" rightEntityFieldName="HOTEL_ID" rightEntityId="138657288898098"/>
+  <relation leftEntityFieldName="CONTRY_ID" leftEntityId="138657337454887" rightEntityFieldName="CONTRY_ID" rightEntityId="138657338454829"/>
+  <relation leftEntityFieldName="DATE_OF_DEPARTURE" leftEntityId="138592124475572" rightEntityId="-1" rightEntityParameterName="Date_of_departure"/>
+</datamodel>

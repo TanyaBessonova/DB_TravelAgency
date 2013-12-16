@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="expensive_Tour" Title="Expensive_Tour" entityHeight="200" entityIconified="false" entityId="138686580649800" entityLocationX="259" entityLocationY="37" entityWidth="150" queryId="Expensive_Tour" tableName="" tableSchemaName=""/>
+</datamodel>

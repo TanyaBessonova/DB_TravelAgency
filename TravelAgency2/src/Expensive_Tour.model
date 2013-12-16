@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="102"/>
+  <entity Title="TOURS" entityHeight="131" entityIconified="false" entityId="138690981679652" entityLocationX="436" entityLocationY="5" entityWidth="233" tableAlias="t2" tableName="TOURS" tableSchemaName=""/>
+  <entity Title="PLACE" entityHeight="104" entityIconified="false" entityId="138690987298742" entityLocationX="406" entityLocationY="154" entityWidth="308" tableAlias="t" tableName="PLACE" tableSchemaName=""/>
+  <entity Title="CITY" entityHeight="115" entityIconified="false" entityId="138690993688500" entityLocationX="752" entityLocationY="10" entityWidth="212" tableAlias="t3" tableName="CITY" tableSchemaName=""/>
+  <entity Title="TOURS" entityHeight="135" entityIconified="false" entityId="138659012574368" entityLocationX="122" entityLocationY="38" entityWidth="214" tableAlias="t1" tableName="TOURS" tableSchemaName=""/>
+  <entity Title="CONTRY" entityHeight="94" entityIconified="false" entityId="138690997452790" entityLocationX="779" entityLocationY="147" entityWidth="256" tableAlias="t4" tableName="CONTRY" tableSchemaName=""/>
+  <relation leftEntityFieldName="CITY_ID" leftEntityId="138690987298742" rightEntityFieldName="CITY_ID" rightEntityId="138690993688500"/>
+  <relation leftEntityFieldName="COST" leftEntityId="138659012574368" rightEntityFieldName="COST" rightEntityId="138690981679652"/>
+  <relation leftEntityFieldName="HOTEL_ID" leftEntityId="138659012574368" rightEntityFieldName="HOTEL_ID" rightEntityId="138690987298742"/>
+  <relation leftEntityFieldName="CONTRY_ID" leftEntityId="138690993688500" rightEntityFieldName="CONTRY_ID" rightEntityId="138690997452790"/>
+  <relation leftEntityFieldName="COST" leftEntityId="138659012574368" rightEntityFieldName="COST" rightEntityId="138659012574368"/>
+</datamodel>

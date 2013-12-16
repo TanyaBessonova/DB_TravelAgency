@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Cost" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="69" entityLocationY="21" entityWidth="204"/>
+  <entity Name="price" Title="Price" entityHeight="200" entityIconified="false" entityId="138645005864321" entityLocationX="355" entityLocationY="23" entityWidth="150" queryId="Price" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Cost" rightEntityId="138645005864321" rightEntityParameterName="Cost"/>
+</datamodel>

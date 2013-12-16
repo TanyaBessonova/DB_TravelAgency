@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="TOURS" entityHeight="200" entityIconified="false" entityId="138453013999266" entityLocationX="221" entityLocationY="10" entityWidth="317" tableAlias="t1" tableName="TOURS" tableSchemaName=""/>
+  <entity Title="City" entityHeight="200" entityIconified="false" entityId="138644956764455" entityLocationX="646" entityLocationY="266" entityWidth="150" queryId="City" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <entity Title="Contry" entityHeight="200" entityIconified="false" entityId="138644956513020" entityLocationX="321" entityLocationY="221" entityWidth="150" queryId="Contry" tableAlias="q" tableName="" tableSchemaName=""/>
+  <entity Title="Place" entityHeight="200" entityIconified="false" entityId="138644957479984" entityLocationX="582" entityLocationY="41" entityWidth="150" queryId="Place" tableAlias="q2" tableName="" tableSchemaName=""/>
+  <relation leftEntityFieldName="CONTRY_ID" leftEntityId="138644956764455" rightEntityFieldName="CONTRY_ID" rightEntityId="138644956513020"/>
+  <relation leftEntityFieldName="CITY_ID" leftEntityId="138644957479984" rightEntityFieldName="CITY_ID" rightEntityId="138644956764455"/>
+  <relation leftEntityFieldName="HOTEL_ID" leftEntityId="138453013999266" rightEntityFieldName="HOTEL_ID" rightEntityId="138644957479984"/>
+</datamodel>

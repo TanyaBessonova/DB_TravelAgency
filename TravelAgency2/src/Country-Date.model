@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Date_Of_Departure" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="91" typeName="DATE"/>
+  </parameters>
+  <parametersEntity entityHeight="72" entityIconified="false" entityLocationX="8" entityLocationY="11" entityWidth="187"/>
+  <entity Title="PLACE" entityHeight="103" entityIconified="false" entityId="138691268286343" entityLocationX="587" entityLocationY="22" entityWidth="195" tableAlias="t" tableName="PLACE" tableSchemaName=""/>
+  <entity Title="Tours" entityHeight="148" entityIconified="false" entityId="138625789986207" entityLocationX="236" entityLocationY="6" entityWidth="296" queryId="Tours" tableAlias="q1" tableName="" tableSchemaName=""/>
+  <entity Title="CITY" entityHeight="102" entityIconified="false" entityId="138691271028755" entityLocationX="815" entityLocationY="19" entityWidth="260" tableAlias="t1" tableName="CITY" tableSchemaName=""/>
+  <relation leftEntityFieldName="HOTEL_ID" leftEntityId="138625789986207" rightEntityFieldName="HOTEL_ID" rightEntityId="138691268286343"/>
+  <relation leftEntityFieldName="CITY_ID" leftEntityId="138691268286343" rightEntityFieldName="CITY_ID" rightEntityId="138691271028755"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Date_Of_Departure" rightEntityFieldName="DATE_OF_DEPARTURE" rightEntityId="138625789986207"/>
+</datamodel>
